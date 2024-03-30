@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+font-size: 30px;
+}
+
+.checking-list{
+    position: relative;
+    left: 25px;
+    margin: 10px;
+}
+
+.checking-list, li{
+    margin: 5px;
+}
+
+.reload-btn{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px ;
+    
+}
+
+.reload-btn:hover{
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
